@@ -1,0 +1,120 @@
+﻿
+/* Request to change the desktop to a named desktop. Name and Description take
+the desktop name as the only format string parameter. */
+
+
+"VTGroupApplications_name" = "Programme bearbeiten";
+
+/* Inspectors... */
+"VTGroupDesktops_name" = "Schreibtisch bearbeiten";
+
+/* Applications... */
+"VTGroupInspection_name" = "Inspektoren";
+
+/* Desktop manipulation group containing operations on desktops */
+"VTGroupNavigation_name" = "Navigation";
+
+/* Windows... */
+"VTGroupWindows_name" = "Fenster";
+
+/* Request application move to west */
+"VTRequestApplicationMoveToEast_desc" = "Programm zum östlichen Schreibtisch schieben";
+"VTRequestApplicationMoveToEast_name" = "Programm nach Osten schieben";
+
+/* Request application move to south */
+"VTRequestApplicationMoveToNorth_desc" = "Moves application to north desktop";
+"VTRequestApplicationMoveToNorth_name" = "Programm nach Norden schieben";
+
+/* Request to send window behind other windows */
+"VTRequestApplicationMoveToSouth_desc" = "Programm zum südlichen Schreibtisch schieben";
+"VTRequestApplicationMoveToSouth_name" = "Programm nach Süden schieben";
+
+/* Request application move to north */
+"VTRequestApplicationMoveToWest_desc" = "Programm zum westlichen Schreibtisch schieben";
+"VTRequestApplicationMoveToWest_name" = "Programm nach Westen schieben";
+
+/* Request to change the desktop to the previous desktop. */
+"VTRequestChangeDesktop_desc" = "Zum Schreibtisch mit dem Namen ‚%@‘ wechseln";
+"VTRequestChangeDesktop_name" = "Zum Schreibtisch ‚%@‘ wechseln";
+
+/* Request to change to the desktop to the west (the left) */
+"VTRequestChangeDesktopToEast_desc" = "Wechselt zum Schreibtisch, der sich rechts neben dem aktiven Schreibtisch befindet.";
+"VTRequestChangeDesktopToEast_name" = "Zum rechts liegenden Schreibtisch wechseln";
+
+/* Request to change the desktop to the desktop marked as the Snapback desktop */
+"VTRequestChangeDesktopToLast_desc" = "Wechselt zum vor dem letzten Wechsel aktiven Schreibtisch zurück.";
+"VTRequestChangeDesktopToLast_name" = "Zum vorherigen Schreibtisch wechseln";
+
+/* Request to change to the desktop to the south (below) */
+"VTRequestChangeDesktopToNorth_desc" = "Wechselt zum Schreibtisch, der sich oberhalb des aktiven Schreibtisch befindet.";
+"VTRequestChangeDesktopToNorth_name" = "Zum oben liegenden Schreibtisch wechseln";
+
+/* Request to set the currently visible desktop as the Snapback desktop */
+"VTRequestChangeDesktopToSnapback_desc" = "Zeigt den für SnapBack markierten Schreibtisch an";
+"VTRequestChangeDesktopToSnapback_name" = "Zum SnapBack-Schreibtisch wechseln";
+
+/* Request to show the overlay pager in Normal-Mode */
+"VTRequestChangeDesktopToSouth_desc" = "Wechselt zum Schreibtisch, der sich unterhalb des aktiven Schreibtisch befindet.";
+"VTRequestChangeDesktopToSouth_name" = "Zum unten liegenden Schreibtisch wechseln";
+
+/* Request to change to the desktop to the north (above) */
+"VTRequestChangeDesktopToWest_desc" = "Wechselt zum Schreibtisch, der sich links neben dem aktiven Schreibtisch befindet.";
+"VTRequestChangeDesktopToWest_name" = "Zum links liegenden Schreibtisch wechseln";
+
+/* Request to show the overlay window of the window under the mouse pointer */
+"VTRequestDeleteDesktop_desc" = "Löscht den aktuell angezeigten Schreibtisch, schiebt wahlweise alle Fenster auf einen anderen Schreibtisch und wechselt zum vorherigen Schreibtisch.";
+"VTRequestDeleteDesktop_name" = "Angezeigten Schreibtisch löschen";
+
+/* Request application move east */
+"VTRequestDisplayOverlay_desc" = "Zeigt das Kontrollfeld für Overlays mit dem Sie den Sticky-Modus ändern und Fenster zwischen den Schreibtischen verschieben können.";
+"VTRequestDisplayOverlay_name" = "Kontrollfenster anzeigen";
+
+/* Request to inspect preferences */
+"VTrequestInspectApplications_desc" = "Zeigt Informationen über laufende und gespeicherte Programme wie ihren Schreibtisch und Sticky State an.";
+"VTRequestInspectApplications_name" = "Programme bearbeiten";
+
+/* Request to inspect Applications using the Application Inspector */
+"VTRequestInspectDesktop_desc" = "Informationen über einen speziellen Schreibtisch anzeigen und eine Liste aller offenen Programme anzeigen.";
+"VTRequestInspectDesktop_name" = "Schreibtisch bearbeiten";
+
+/* Request to inspect the visible desktop using the Desktop Inspector */
+"VTRequestInspectDesktops_desc" = "Zeigt alle verfügbaren Schreibtische, Ihren Status und erlaubt Umbenennen, Umsortieren, Hinzufügen und Löschen von Schreibtischen";
+"VTRequestInspectDesktops_name" = "Verfügbare Schreibtische bearbeiten";
+
+/* Request to toggle visiblity of the statusbar menu */
+"VTRequestInspectPreferences_desc" = "Benutzereinstellungen von VirtueDesktops anzeigen";
+"VTRequestInspectPreferences_name" = "Einstellungen bearbeiten";
+"VTRequestSendWindowBack_desc" = "Fenster und Punkt zurücksenden";
+"VTRequestSendWindowBack_name" = "Fenster nach hinten senden";
+
+/* Request to change to the desktop to the east (the right) */
+"VTRequestSetSnapbackDesktop_desc" = "Setzt den momentan aktiven Schreibtisch als SnapBack-Schreibtisch.";
+"VTRequestSetSnapbackDesktop_name" = "Schreibtisch für SnapBack markieren";
+
+/* Request to show the overlay pager in Sticky-Mode */
+"VTRequestShowPager_desc" = "Zeigt den Pager an, mit dem Schreibtische angezeigt und gewechselt werden können.";
+"VTRequestShowPager_name" = "Pager anzeigen";
+
+/* Request to inspect Desktops using the Desktops Inspector (Deprecated) */
+"VTRequestShowPagerAndStick_desc" = "Zeigt den Pager an. Tasten können aber los gelassen werden, der Pager wird weiterhin angezeigt.";
+"VTRequestShowPagerAndStick_name" = "Pager anzeigen (Sticky)";
+
+/* Request to delete the visible desktop */
+"VTRequestToggleStatusbarMenu_desc" = "Gestattet Ihnen, das Menü in der Statusleiste ein- und auszublenden.";
+"VTRequestToggleStatusbarMenu_name" = "Menü in der Statusleiste ein-/ausblenden";
+
+/* Request to move the window currently under the cursor to the desktop left of this one */
+"VTRequestMoveWindowLeft_desc" = "Verschiebt das Fenster unter dem Cursor auf den links liegenden Schreibtisch";
+"VTRequestMoveWindowLeft_name" = "Fenster unter dem Cursor nach links verschieben";
+
+/* Request to move the window currently under the cursor to the desktop right of this one */
+"VTRequestMoveWindowRight_desc" = "Verschiebt das Fenster unter dem Cursor auf den rechts liegenden Schreibtisch";
+"VTRequestMoveWindowRight_name" = "Fenster unter dem Cursor nach rechts verschieben";
+
+/* Request to move the window currently under the cursor to the desktop right of this one */
+"VTRequestMoveWindowUp_desc" = "Verschiebt das Fenster unter dem Cursor auf den oben liegenden Schreibtisch";
+"VTRequestMoveWindowUp_name" = "Fenster unter dem Cursor nach oben verschieben";
+
+/* Request to move the window currently under the cursor to the desktop right of this one */
+"VTRequestMoveWindowDown_desc" = "Verschiebt das Fenster unter dem Cursor auf den unten liegenden Schreibtisch";
+"VTRequestMoveWindowDown_name" = "Fenster unter dem Cursor nach unten verschieben";

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>vtPlugin</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>iconExtension</string>
+			<key>CFBundleTypeName</key>
+			<string>VirtueDesktops Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<string>YES</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>VirtueDesktops</string>
+	<key>CFBundleGetInfoString</key>
+	<string>${CURRENT_MARKETING_VERSION} (${CURRENT_PROJECT_VERSION}), Copyright 2007 Tony Arnold</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Virtue Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Virtue Help</string>
+	<key>CFBundleIconFile</key>
+	<string>iconVirtue</string>
+	<key>CFBundleIdentifier</key>
+	<string>info.virtuedesktops.VirtueDesktops</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>VirtueDesktops</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${CURRENT_MARKETING_VERSION}</string>
+	<key>CFBundleSignature</key>
+	<string>virt</string>
+	<key>CFBundleVersion</key>
+	<string>${CURRENT_PROJECT_VERSION}</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.4.0</string>
+	<key>LSUIElement</key>
+	<string>1</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>Yes</string>
+	<key>NSMainNibFile</key>
+	<string>VirtueDesktops</string>
+	<key>NSPrincipalClass</key>
+	<string>VTApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://www.virtuedesktops.info/index.php/category/appcast/feed</string>
+	<key>SmartCrashReports_CommentsTemplate</key>
+	<string>Please include your e-mail address if you wish to be contacted in regard to this crash.</string>
+	<key>SmartCrashReports_CompanyName</key>
+	<string>Tony Arnold</string>
+	<key>SmartCrashReports_EmailTicket</key>
+	<string>SCR-BB4DC15238</string>
+</dict>
+</plist>
